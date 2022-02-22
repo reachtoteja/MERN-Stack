@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 30px;
+}
+
+/* Common Styling */
+
+img {
+  width: 400px;
+}
+h1 {
+  margin: 10px 0 10px 0;
+}
+.lh-p {
+  line-height: 25px;
+}
+.article-heading {
+  font-size: 20px;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+.margin-bottom {
+  margin-bottom: 20px;
+}
+.bg-dark {
+  background-color: #2a374a;
+  color: #fff;
+}
+.bg-orange {
+  background-color: #ff725c;
+  color: #fff;
+}
+.bg-green {
+  background-color: #76cba1;
+  color: #fff;
+}
+.bg-purple {
+  background-color: #7661b2;
+  color: #fff;
+}
+.bg-blue {
+  background-color: #2792a5;
+  color: #fff;
+}
+.light {
+  color: rgb(248, 183, 98);
+}
+.dark {
+  color: #2a374a;
+}
+.icon {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* Body and Header Styling */
+
+body > div {
+  height: 100vh;
+  width: 100vw;
+  padding: 0 20px 20px 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+header > div {
+  flex-grow: 6;
+  padding-left: 50px;
+  padding-top: 10px;
+}
+header > nav {
+  flex-grow: 4;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.heading {
+  text-align: center;
+  line-height: 80px;
+  margin-top: 20vh;
+
+  font-size: 50px;
+}
+
+nav > ul > li {
+  padding: 20px 10px 10px 10px;
+}
+nav > .dark > li:hover,
+#home-selected {
+  font-weight: 600;
+  background-color: #425269;
+}
+nav > .orange > li:hover,
+#about-selected {
+  font-weight: 600;
+  background-color: #d65e4b;
+}
+nav > .green > li:hover,
+#clients-selected {
+  font-weight: 600;
+  background-color: #7cdaa9;
+}
+nav > .purple > li:hover,
+#services-selected {
+  font-weight: 600;
+  background-color: #8470bb;
+}
+nav > .blue > li:hover,
+#contact-selected {
+  font-weight: 600;
+  background-color: #5ca7b4;
+}
+
+/* About Page Styling */
+
+.about-main {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+.about-main h1 {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.about-sec {
+  width: 35vw;
+  padding: 20px 40px 20px 20px;
+  text-align: justify;
+  text-indent: 30px;
+  align-items: center;
+}
+.about-sec h1 {
+  text-align: center;
+}
+.about-sec p {
+  padding: 8px;
+}
+.prof-sec {
+  width: 65vw;
+  padding: 20px 20px 20px 40px;
+  text-align: center;
+  align-items: center;
+}
+.prof-sec > div {
+  display: flex;
+  justify-content: space-around;
+}
+.prof-sec section {
+  border: 1px solid #fff;
+  border-radius: 2px;
+  padding: 10px;
+  background-color: #d65e4b;
+  line-height: 25px;
+}
+
+.prof-sec section > img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.prof-sec section > div {
+  border-top: 3px solid #4a916e;
+  padding-top: 10px;
+}
+.prof-sec > p {
+  margin-bottom: 30px;
+}
+.icon-sec {
+  display: flex;
+  justify-content: space-around;
+}
+.icon-sec img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+/* Services Page Styling */
+
+#services main {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 100px;
+}
+#services img {
+  width: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+#services main > div {
+  display: flex;
+  justify-content: center;
+}
+
+#services main article {
+  padding: 15px;
+  background-color: #8470bb;
+  width: 15vw;
+  border: 1px solid #fff;
+  margin: 30px 15px;
+}
+
+#services article > div {
+  width: 150px;
+  height: 150px;
+  background-color: #7661b2;
+  border-radius: 50%;
+}
+
+/* Clients Page Styling */
+
+#clients main {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 20px 20px 20px;
+}
+#clients main > div {
+  display: flex;
+}
+#clients img {
+  width: 100px;
+  height: 80px;
+}
+#clients article > div {
+  background-color: #fff;
+}
+#clients article {
+  margin: 20px;
+  width: 300px;
+  height: 40vh;
+}
+
+#clients main a {
+  color: #2a374a;
+}
+
+/* Contact Page Styling */
+
+#contact main {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 20px 20px 20px;
+}
+#contact main > div {
+  display: flex;
+  justify-content: space-around;
+}
+
+#contact main h1 {
+  margin-bottom: 80px;
+}
+
+#contact aside {
+  background-color: #5ca7b4;
+  padding: 30px;
+  text-align: justify;
+  width: 40vw;
+}

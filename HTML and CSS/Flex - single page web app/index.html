@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <title>Single Page Web Application - Flexbox</title>
+  </head>
+  <body>
+    <div class="bg-dark" id="home">
+      <header class="navbar">
+        <div>
+          <h1 class="logo"><a href="#">Logo</a></h1>
+        </div>
+        <nav>
+          <ul class="dark">
+            <li id="home-selected"><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#clients">Clients</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <h1 class="heading">
+          <span class="light">Welcome to Home Page</span> of Single Page web
+          application
+        </h1>
+      </main>
+    </div>
+    <div class="bg-orange" id="about">
+      <header class="navbar">
+        <div>
+          <h1 class="logo"><a href="#">Logo</a></h1>
+        </div>
+        <nav>
+          <ul class="orange">
+            <li><a href="#home">Home</a></li>
+            <li id="about-selected"><a href="#about">About</a></li>
+            <li><a href="#clients">Clients</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main class="about-main">
+        <section class="about-sec">
+          <h1><span class="dark">About Us</span></h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi
+            aliquid sunt nostrum necessitatibus ab accusantium veniam animi in
+            ducimus dicta eum, repellat provident voluptate sint inventore
+            delectus esse illum natus.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+            molestiae totam veniam porro obcaecati dolorem eius cum dolores
+            possimus labore vel similique voluptas incidunt quidem, voluptatem
+            voluptatibus adipisci tempore. Numquam!
+          </p>
+        </section>
+        <section class="prof-sec">
+          <h1>Our <span class="dark">Professional Team</span></h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
+            aperiam.
+          </p>
+          <div>
+            <section>
+              <img src="./images/Emma.jpg" alt="Emma Watson" />
+              <p>Emma Watson</p>
+              <p class="margin-bottom">Director</p>
+              <div class="icon-sec">
+                <div class="icon">
+                  <img src="./images/facebook.png" alt="fb" />
+                </div>
+                <div class="icon">
+                  <img src="./images/twitter.png" alt="twitter" />
+                </div>
+                <div class="icon">
+                  <img src="./images/linkedin.png" alt="linkedin" />
+                </div>
+              </div>
+            </section>
+            <section>
+              <img src="./images/david.jpg" alt="David Malan" />
+              <p>David Malan</p>
+              <p class="margin-bottom">Finance Lead</p>
+              <div class="icon-sec">
+                <div class="icon">
+                  <img src="./images/facebook.png" alt="fb" />
+                </div>
+                <div class="icon">
+                  <img src="./images/twitter.png" alt="twitter" />
+                </div>
+                <div class="icon">
+                  <img src="./images/linkedin.png" alt="linkedin" />
+                </div>
+              </div>
+            </section>
+            <section>
+              <img src="./images/linda.jpg" alt="Mary linda" />
+              <p>Mary Linda</p>
+              <p class="margin-bottom">Sr Engineer</p>
+              <div class="icon-sec">
+                <div class="icon">
+                  <img src="./images/facebook.png" alt="fb" />
+                </div>
+                <div class="icon">
+                  <img src="./images/twitter.png" alt="twitter" />
+                </div>
+                <div class="icon">
+                  <img src="./images/linkedin.png" alt="linkedin" />
+                </div>
+              </div>
+            </section>
+            <section>
+              <img src="./images/jon.jpg" alt="Jon Doe" />
+              <p>Jon Doe</p>
+              <p class="margin-bottom">Advisor</p>
+              <div class="icon-sec">
+                <div class="icon">
+                  <img src="./images/facebook.png" alt="fb" />
+                </div>
+                <div class="icon">
+                  <img src="./images/twitter.png" alt="twitter" />
+                </div>
+                <div class="icon">
+                  <img src="./images/linkedin.png" alt="linkedin" />
+                </div>
+              </div>
+            </section>
+          </div>
+        </section>
+      </main>
+    </div>
+    <div class="bg-green" id="clients">
+      <header class="navbar">
+        <div>
+          <h1 class="logo"><a href="#">Logo</a></h1>
+        </div>
+        <nav>
+          <ul class="green services">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li id="clients-selected"><a href="#clients">Clients</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <h1 class="margin-bottom">Our <span class="dark">Clients</span></h1>
+        <div>
+          <article>
+            <div>
+              <img src="./images/client1.png" alt="client1" />
+            </div>
+            <p class="article-heading">Amazon</p>
+            <p class="lh-p">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione,
+              repudiandae?
+            </p>
+            <a href="#">Read more...</a>
+          </article>
+          <article>
+            <div>
+              <img src="./images/client2.png" alt="client2" />
+            </div>
+            <p class="article-heading">IBM</p>
+            <p class="lh-p">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione,
+              repudiandae?
+            </p>
+            <a href="#">Read more...</a>
+          </article>
+          <article>
+            <div>
+              <img src="./images/client3.png" alt="client3" />
+            </div>
+            <p class="article-heading">Vodafone</p>
+            <p class="lh-p">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione,
+              repudiandae?
+            </p>
+            <a href="#">Read more...</a>
+          </article>
+          <article>
+            <div>
+              <img src="./images/client4.png" alt="client4" />
+            </div>
+            <p class="article-heading">Microsoft</p>
+            <p class="lh-p">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione,
+              repudiandae?
+            </p>
+            <a href="#">Read more...</a>
+          </article>
+          <article>
+            <div>
+              <img src="./images/client5.png" alt="client5" />
+            </div>
+            <p class="article-heading">Rolex</p>
+            <p class="lh-p">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione,
+              repudiandae?
+            </p>
+            <a href="#">Read more...</a>
+          </article>
+          <article>
+            <div>
+              <img src="./images/client6.png" alt="client6" />
+            </div>
+            <p class="article-heading">Life's Good</p>
+            <p class="lh-p">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione,
+              repudiandae?
+            </p>
+            <a href="#">Read more...</a>
+          </article>
+          <article>
+            <div>
+              <img src="./images/client7.png" alt="client7" />
+            </div>
+            <p class="article-heading">Formula</p>
+            <p class="lh-p">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione,
+              repudiandae?
+            </p>
+            <a href="#">Read more...</a>
+          </article>
+          <article>
+            <div>
+              <img src="./images/client8.png" alt="client8" />
+            </div>
+            <p class="article-heading">Toyota</p>
+            <p class="lh-p">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione,
+              repudiandae?
+            </p>
+            <a href="#">Read more...</a>
+          </article>
+        </div>
+      </main>
+    </div>
+    <div class="bg-purple" id="services">
+      <header class="navbar">
+        <div>
+          <h1 class="logo"><a href="#">Logo</a></h1>
+        </div>
+        <nav>
+          <ul class="purple">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#clients">Clients</a></li>
+            <li id="services-selected">
+              <a href="#services" Services>Services</a>
+            </li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <h1 class="margin-bottom">Our <span class="light">Services</span></h1>
+        <p class="margin-bottom">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+          sed sapiente dignissimos saepe nihil aperiam, reiciendis autem tempora
+          animi itaque aliquid eveniet vel voluptate id ab velit iure fugiat
+          adipisci?
+        </p>
+        <div>
+          <article>
+            <div>
+              <img src="./images/icon1.png" alt="icon" />
+            </div>
+            <p class="article-heading">Service</p>
+            <p class="lh-p">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia,
+              nobis!
+            </p>
+          </article>
+          <article>
+            <div>
+              <img src="./images/icon2.png" alt="icon" />
+            </div>
+            <p class="article-heading">Service</p>
+            <p class="lh-p">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia,
+              nobis!
+            </p>
+          </article>
+          <article>
+            <div>
+              <img src="./images/icon3.png" alt="icon" />
+            </div>
+            <p class="article-heading">Service</p>
+            <p class="lh-p">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia,
+              nobis!
+            </p>
+          </article>
+          <article>
+            <div>
+              <img src="./images/icon4.png" alt="icon" />
+            </div>
+            <p class="article-heading">Service</p>
+            <p class="lh-p">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia,
+              nobis!
+            </p>
+          </article>
+        </div>
+      </main>
+    </div>
+    <div class="bg-blue" id="contact">
+      <header class="navbar">
+        <div>
+          <h1 class="logo"><a href="#">Logo</a></h1>
+        </div>
+        <nav>
+          <ul class="blue">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#clients">Clients</a></li>
+            <li><a href="#services">Services</a></li>
+            <li id="contact-selected"><a href="#contact">Contact Us</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <h1>Get in <span class="light">Touch</span></h1>
+        <div>
+          <aside class="lh-p">
+            <p class="article-heading">Address</p>
+            <p>Block-D</p>
+            <p>Street: Marylebone</p>
+            <p>city: manchester</p>
+            <p>pin code: 100265</p>
+            <p>phone: +1 (555) 78537</p>
+          </aside>
+          <aside>
+            <img src="./images/map.jpg" alt="map" />
+          </aside>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
