@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transformations</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 500;
+        background-color: #eaeef5;
+      }
+      main {
+        margin: 60px 0 30px 0;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .margin-bottom {
+        margin-bottom: 40px;
+      }
+      div {
+        width: 70vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      }
+      img {
+        display: block;
+        width: 175px;
+        height: 175px;
+      }
+      img:hover {
+        transition: 2s;
+        border: 1px solid rgb(255, 255, 255);
+
+        transform: scale(1.75, 1.75);
+        box-shadow: 10px 10px 5px 0px rgb(90, 86, 86);
+      }
+      section {
+        text-align: center;
+      }
+      p {
+        color: #000;
+        border: 1.5px solid #000;
+        padding: 1.5px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="margin-bottom">
+        <section>
+          <img src="./images/watch.jpg" alt="watch" />
+          <p>
+            Matte Black Watch <br />
+            Price: $100 <br />
+            Rating: 4.5
+          </p>
+        </section>
+        <section>
+          <img src="./images/mobile.jpg" alt="mobile" />
+          <p>
+            Iphone 13 Pro <br />
+            Price: $1000 <br />
+            Rating: 4.7
+          </p>
+        </section>
+        <section>
+          <img src="./images/headphones.jpg" alt="headphones" />
+          <p>
+            Headset - Bluetooth <br />
+            Price: $150 <br />
+            Rating: 4.0
+          </p>
+        </section>
+        <section>
+          <img src="./images/clock.jpg" alt="clock" />
+          <p>
+            Ajanta Wall Clock <br />
+            Price: $185 <br />
+            Rating: 4.6
+          </p>
+        </section>
+      </div>
+      <div>
+        <section>
+          <img src="./images/camera.jpg" alt="camera" />
+          <p>
+            canon Black camera <br />
+            Price: $500 <br />
+            Rating: 4.4
+          </p>
+        </section>
+        <section>
+          <img src="./images/helmet.jpg" alt="helmet" />
+          <p>
+            Motorsports Helmet <br />
+            Price: $75 <br />
+            Rating: 4.3
+          </p>
+        </section>
+        <section>
+          <img src="./images/footware.jpg" alt="footware" />
+          <p>
+            Adidas White Shoes <br />
+            Price: $50 <br />
+            Rating: 4.5
+          </p>
+        </section>
+        <section>
+          <img src="./images/echodot.jpg" alt="echodot" />
+          <p>
+            Amazon Echo Dot <br />
+            Price: $80 <br />
+            Rating: 4.7
+          </p>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
