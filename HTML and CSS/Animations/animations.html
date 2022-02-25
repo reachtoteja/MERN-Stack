@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animations</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        color: #fff;
+        background-color: #000;
+        font-family: cursive;
+      }
+      main {
+        margin: auto;
+        display: flex;
+        height: 80vh;
+        width: 900px;
+        align-items: center;
+        justify-content: center;
+        padding-left: 200px;
+      }
+
+      div {
+        width: 200px;
+        height: 200px;
+
+        border-radius: 50%;
+      }
+      .ring-3 {
+        position: relative;
+        right: 300px;
+        top: -100px;
+      }
+      .ring-1 {
+        position: relative;
+        left: 50px;
+      }
+      .ring-2 {
+        position: relative;
+        right: 50px;
+      }
+      .ring {
+        border-bottom: 5px solid #fff;
+        animation-name: loading;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+      @keyframes loading {
+        from {
+          transform: rotate(0deg);
+        }
+
+        to {
+          transform: rotate(360deg);
+        }
+      }
+      p {
+        font-size: 50px;
+        text-align: center;
+        letter-spacing: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="ring-1 ring"></div>
+      <div class="ring-2 ring"></div>
+      <div class="ring-3 ring"></div>
+    </main>
+    <p>Loading...</p>
+  </body>
+</html>
