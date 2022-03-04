@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(#9960b5, #e8a5e0);
+  display: flex;
+  justify-content: center;
+  color: #a6a6a6;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+div.image {
+  margin-left: 15vw;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background: #fff url("../images/hotel.jpg") no-repeat center center/ cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.form {
+  margin-right: 15vw;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #000;
+}
+.box {
+  margin: auto;
+  height: 90vh;
+  width: 35vw;
+  margin-top: 4vh;
+  margin-bottom: 6vh;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1.3rem 0 0.75rem 1rem;
+  /* text-align: center; */
+  color: rgb(207, 201, 201);
+}
+
+input,
+select {
+  background-color: #000;
+  border: none;
+  color: #a6a6a6;
+  width: 15rem;
+  font-size: 1rem;
+}
+input:focus,
+select:focus {
+  outline: none;
+}
+
+.btn {
+  background-color: #45b04f;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border-radius: 1.2rem;
+  color: #fff;
+}
+
+i {
+  padding-right: 10px;
+  /* border-right: 0.1px solid #a6a6a6; */
+}
+
+.gender,
+.birth-date {
+  display: flex;
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.form-container {
+  padding: 1.25rem 0 0.6rem 0.25rem;
+  border-bottom: 0.1px solid #414040;
+  margin: 0px 50px 5px 15px;
+}
+
+form {
+  margin: 0px 30px 5px 30px;
+}
+
+.submit-button {
+  margin-top: 0.8rem;
+  border: none;
+  /* text-align: center; */
+}
+.submit-button > input {
+  width: 10rem;
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+p {
+  margin-right: 2rem;
+  font-weight: 500;
+  width: 8rem;
+}
+
+select {
+  margin-left: 30px;
+}
+
+.select {
+  font-size: 1rem;
+  font-weight: 5;
+  display: flex;
+}
+
+label {
+  margin-right: 1.75rem;
+  margin-left: -0.25rem;
+}
+
+#birthDate::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
